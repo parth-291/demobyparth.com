@@ -1,0 +1,425 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myfont ;
+    src: url(GrandHotel-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat ;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+.first{
+    width: 100%;
+    /* background-image:url(image/3218291.png); */
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(image/Vector\ Smart\ Object\ \(Double\ Click\ to\ Edit\).png);
+}
+.first_section{
+    width: 100%;
+   
+}
+.first > img{
+    width: 85%;
+    position: absolute;
+    z-index: -1;
+    rotate: 180deg;
+    left: -130px;
+    top: -7px;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+
+}
+header{
+    width: 100%;
+    /* background-color: aquamarine; */
+    
+}
+nav{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    padding-top: 40px;
+
+}
+.logo{
+    width: 14%;
+}
+.logo img{
+    width: 100%;
+}
+.navlinks{
+    width: 60%;
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+}
+.navlinks a{
+    font-size: 22px;
+    font-family:Montserrat ;
+    text-decoration: blink;
+    color: white;
+    
+}
+.link{
+    width: 90%;
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+}
+.search_icon img{
+    width: 100%;
+}
+.search_icon{
+    width: 35px;
+}
+.icon8{
+    display: none;
+    width: 17px;
+}
+.icon8 img{
+    width: 100%;
+}
+.title_section{
+    width: 100%;
+    padding: 31px 0 223px;
+    display: flex;
+    justify-content: end;
+
+}
+.title_sec{
+    width: 55%;
+    margin-top: 105px;
+    position: relative;
+    z-index: 2;
+    margin-top: 65px;
+}
+.title_sec h1{
+    font-family: myfont ;
+    font-size: 120px;
+    font-weight: 100;
+    margin: 0;
+    color: #FFC107;
+}
+.title_sec p{
+    font-family: Montserrat;
+    font-size: 29px;
+    margin: 0;
+    line-height: 35px;
+    color: white;
+
+}
+.title_sec a {
+    font-size: 19px;
+    font-weight: 800;
+    padding: 12px 52px;
+    display: block;
+    width: 135px;
+    background-color: yellow;
+    margin-top: 50px;
+    text-decoration: blink;
+    font-family: Montserrat;
+
+    color: rgb(73, 62, 62);
+}
+
+
+.sec{
+    padding: 100px 0;
+    background-color: white;
+}
+.seller_sec{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seller_sec h2{
+    font-size: 75px;
+color: #333333;
+font-weight: 400;
+font-family: myfont;
+text-align: center;
+margin: 0;
+
+}
+.seller_sec p{
+    font-size: 27px;
+    color: #333333;
+    font-weight: 400;
+    width: 54%;
+    margin: 0;
+    text-align: center;
+}
+.secimg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.dis{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dis img{
+    border-radius: 131px;
+}
+.dis h3{
+    font-size: 42px;
+color: #333333;
+font-weight: 400;
+font-family: myfont ;
+text-align: center;
+margin: 0;
+}
+.dis p{
+    font-size: 17px;
+}
+
+.grill{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 136px;
+
+}
+.grill_img{
+    width: 33%;
+}
+.grill_img img{
+width: 100%;
+border-radius: 253px;
+
+}
+.grill_info{
+    width: 40%;
+    padding: 40px 0;
+
+}
+.thirdsec h2{
+    font-size: 90px;
+    margin: 0%;
+    font-family:myfont;
+    color: #FFC107;
+    font-weight: 100;
+}
+.thirdsec p{
+    font-size: 22px;
+    margin: 0%;
+    font-family:Montserrat;
+    color: white;
+}
+.grill_info a{
+    font-size: 28px;
+    font-weight: 800;
+    padding: 12px 86px;
+    display: block;
+    width: 163px;
+    background-color: yellow;
+    margin-top: 50px;
+    text-decoration: blink;
+    font-family: Montserrat;
+    color: rgb(73, 62, 62);
+}
+.third{
+    position: relative;
+    margin-top: 280px;
+
+}
+.third::before {
+        content: "";
+    background-image: url(image/v1.png  );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    padding: 322px 0;
+    left: 0;
+    top: -135px;
+    z-index: -1;
+    
+
+}
+.third::after {
+    content: "";
+background-image: url(image/v1.png  );
+background-size: 100%;
+background-repeat: no-repeat;
+width: 100%;
+position: absolute;
+padding: 322px 0;
+left: 0;
+bottom: -135px;
+z-index: -1;
+rotate: 180deg;
+
+}
+.chat{
+    width: 16%;
+    height: 113px;
+    padding: 45px 0;
+    text-align: center;
+    border: 6px solid white;
+    border-radius: 183px;
+}
+.statistics{
+    background-color: #313030;
+    padding: 150px 0;
+    position: relative;
+}
+.statistics_info{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.statistics_info p{
+    width: 700px;
+    margin: 0 auto;
+}
+.statistics_chat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 90px 0;
+}
+.chat h4{
+    font-size: 58px;
+    margin: 0;
+    color: #FFC107;
+}
+.chat p{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+}
+.four{
+    width:100% ;
+    background-image: url(image/3218291.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 240px 0 0;
+
+
+}
+.lenora_filed{
+    width: 100%;
+  padding: 180px 0;
+  text-align: center;
+
+}
+.lenora_filed p{
+    font-size: 53px;
+    font-family: Montserrat ;
+}
+.lenora_filed h4{
+    font-size: 64px;
+    font-family: myfont;
+    margin: 0;
+}
+.overlay{
+    background-color: #fff400;
+    filter: opacity(0.7) ;
+}
+.five_filed h4{
+    font-size: 100px;
+color: #333333;
+font-weight: 400;
+font-family: myfont;
+text-align: center;
+margin: 0;
+}
+.five_filed p{
+    font-size: 30px;
+color: #333333;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
+.five_filed input{
+    width: 60%;
+    padding: 20px;
+}
+.five_filed input::placeholder {
+    font-size: 25px;
+}
+.five_filed button{
+    width: 23%;
+    font-size: 30px;
+    padding: 10px 10px 20px;
+    background-color: #FFC107;
+    font-weight: 500;
+    border: none;
+}
+.five_filed{
+    padding: 260px 0;
+    width: 62%;
+    text-align: center;
+    margin: 0 auto;;
+}
+.five{
+    position: relative;
+}
+footer{
+    width: 100%;
+    background-color: #313030;
+}
+.footer_filled{
+    padding: 250px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 133px;
+}
+.footerinfo{
+    width: 33%;
+}
+.footerlinks {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+.f_1{
+    flex-direction: column;
+    display: flex;
+}
+footer a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    line-height: 37px;
+    font-family: Montserrat;
+
+}
+footer h5{
+    font-size: 25px;
+    color: white;
+    font-family: Montserrat;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+    font-family: Montserrat;
+}
+.footer_icon{
+    display: flex;
+    gap: 20px;
+}
+.footer_icon a{
+width: 50px;
+display: block;
+}
+.footer_icon img{
+    width: 100%;
+}

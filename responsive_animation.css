@@ -1,0 +1,428 @@
+@media only screen and (min-width:1200px) and (max-width:1400px) {
+    .image_2 {
+        right: 139px;
+        bottom: -88px;
+        animation: animation;
+        width: 25px;
+        rotate: 308deg;
+
+    }
+    .image_1 {
+        right: 171px;
+        bottom: -9px;
+    animation: animation;
+    width: 77px;
+    rotate: 308deg;
+        
+
+    }
+    .image_3 {
+        animation: animation;
+        left: -112px;
+        bottom: 112px;
+        width: 100px;
+        rotate: 353deg;
+    }
+    .image_4 {
+        animation: animation;
+        top: -27px;
+        left: -36px;
+        width: 36px;
+        rotate: 308deg;
+    
+    }
+    
+    .image_5 {
+        animation: animation;
+        bottom: -117px;
+        left: -22px;
+        width: 30px;
+        rotate: 308deg;
+    
+    }
+    .image_6 {
+        animation: animation;
+        right: 74px;
+        top: 95px;
+        width: 39px;
+        rotate: 308deg;
+    
+    }
+    .image_7 {
+        right: 267px;
+        width: 30px;
+        animation: animation;
+        bottom: -100px;
+        rotate: 308deg;
+    
+    }
+    .image_8 {
+        animation: animation;
+        right: 137px;
+        top: -41px;
+        width: 100px;
+        rotate: 308deg;
+    
+    }
+    .image_9 {
+        animation: animation;
+        bottom: -135px;
+        left: 132px;
+        width: 90px;
+        rotate: 308deg;
+    
+    }
+}
+
+
+@media only screen  and (max-width:1200px) {
+
+    .image_2 {
+        right: 139px;
+        bottom: -88px;
+        animation: animation;
+        width: 12px;
+        rotate: 308deg;
+
+    }
+    .image_1 {
+        right: 65px;
+        bottom: -9px;
+    animation: animation;
+    width: 53px;
+    rotate: 308deg;
+        
+
+    }
+    .image_3 {
+        animation: animation;
+        left: -112px;
+        bottom: 112px;
+        width: 80px;
+        rotate: 353deg;
+    }
+    .image_4 {
+        animation: animation;
+        top: -27px;
+        left: -36px;
+        width: 18px;
+        rotate: 308deg;
+    
+    }
+    
+    .image_5 {
+        animation: animation;
+        bottom: -117px;
+        left: -22px;
+        width: 18px;
+        rotate: 308deg;
+    
+    }
+    .image_6 {
+        animation: animation;
+        right: 74px;
+        top: 95px;
+        width: 23px;
+        rotate: 308deg;
+    
+    }
+    .image_7 {
+        right: 267px;
+        width: 30px;
+        animation: animation;
+        bottom: -100px;
+        rotate: 308deg;
+    
+    }
+    .image_8 {
+        animation: animation;
+        right: 137px;
+        top: -41px;
+        width: 85px;
+        rotate: 308deg;
+    
+    }
+    .image_9 {
+        animation: animation;
+        bottom: -135px;
+        left: 70px;
+        width: 65px;
+        rotate: 308deg;
+    
+    }
+    .sec_1 {
+        animation: animation;
+        width: 79px;
+        right: 68px;
+        bottom: 359px;
+    }
+    .sec_2 {
+        animation: animation;
+        width: 17px;
+    }
+    .sec_3 {
+        animation: animation;
+        width: 72px;
+        left: 94px;
+        top: 167px;
+    }
+    .sec_4 {
+        top: 106px;
+        animation: animation;
+        left: 271px;
+        width: 18px;
+    }
+    .sec_5 {
+        animation: animation;
+        right: 142px;
+        top: 173px;
+        width: 19px;
+    }
+    .sec_6 {
+        animation: animation;
+        right: 346px;
+        bottom: 85px;
+        width: 67px;
+    }
+    .sec_8 {
+        animation: animation;
+        bottom: 103px;
+        left: 320px;
+        width: 68px;
+    }
+    .sec_9 {
+        animation: animation;
+        width: 68px;
+    }
+
+    }
+    @media only screen and (max-width:991px) {
+        .image_1 {
+            right: 88px;
+            bottom: 20px;
+            animation: animation;
+            width: 36px;
+        }
+        .image_2 {
+            right: 139px;
+            bottom: -30px;
+        }
+        .image_3 {
+            left: -52px;
+            bottom: 73px;
+            width: 48px;
+        }
+        .image_4 {
+            top: -2px;
+        }
+        .image_5 {
+            bottom: -26px;
+            left: -49px;
+        }
+        .image_6 {
+            right: 77px;
+            top: 35px;
+        }
+        .image_7 {
+            right: 184px;
+            width: 13px;
+            bottom: -37px;
+        }
+        .image_8 {
+            right: 137px;
+            top: -10px;
+            width: 36px;
+        }
+        .image_9 {
+            bottom: -40px;
+            left: 45px;
+            width: 37px;
+        }
+        .sec_1 {
+            width: 36px;
+            right: 82px;
+            bottom: 221px;
+        }
+        .sec_2 {
+            width: 10px;
+            right: 92px;
+            bottom: 42px;
+        }
+        .sec_3 {
+            width: 43px;
+            left: 64px;
+            top: 61px;
+        }
+        .sec_4 {
+            top: 56px;
+            left: 201px;
+            width: 18px;
+        }
+        .sec_5 {
+            right: 64px;
+            top: 222px;
+            width: 12px;
+        }
+        .sec_6 {
+            right: 241px;
+            bottom: 40px;
+            width: 48px;
+        }
+        .sec_7 {
+            bottom: 56px;
+            left: 61px;
+            width: 12px;
+        }
+        .sec_8 {
+            bottom: 40px;
+            left: 228px;
+            width: 36px;
+        }
+        .sec_9 {
+            width: 32px;
+            top: 54px;
+            right: 188px;
+            
+        }
+        .five_filed {
+            padding: 100px 0;
+        }
+
+    }
+    @media only screen and (max-width:768px) {
+        .image_1 {
+            right: 0px;
+            width: 25px;
+        }   
+        .image_2 {
+            right: 43px;
+            width: 8px;
+            bottom: -9px;
+        }
+        .image_3 {
+            left: -41px;
+            bottom: 73px;
+            width: 31px;
+        }
+        .image_4 {
+            left: -20px;
+            width: 9px;
+        }
+        .image_5 {
+            bottom: 0px;
+            left: -32px;
+            width: 12px;
+        }
+        .image_6 {
+            right: -2px;
+            top: 20px;
+            width: 11px;
+        }
+        .image_7 {
+            right: 79px;
+            width: 7px;
+            bottom: -19px;
+        }
+        .image_8 {
+            right: 42px;
+            top: 0px;
+            width: 24px;
+        }
+        .image_9 {
+            bottom: -23px;
+            left: 23px;
+            width: 21px;
+        }
+
+    }
+
+    @media only screen and (max-width:640px) {
+
+    .sec_1 {
+        width: 24px;
+        right: 44px;
+    }
+    .sec_4 {
+        left: 140px;
+        width: 11px;
+    }
+    .sec_5 {
+        right: 32px;
+    }
+    .sec_6 {
+        right: 177px;
+        bottom: 40px;
+        width: 30px;
+    }
+    .sec_8 {
+        bottom: 40px;
+        left: 169px;
+        width: 26px;
+    }
+    .sec_9 {
+        right: 127px;
+    }
+
+}
+@media only screen and (max-width:480px) {
+    .image_1 {
+        right: 22px;
+        width: 17px;
+    }
+    .image_3 {
+        left: -28px;
+        bottom: 51px;
+        width: 22px;
+    }
+    .image_5 {
+        bottom: -16px;
+        left: -2px;
+    }
+    .image_6 {
+        right: 22px;
+    }
+    .image_8 {
+        right: 45px;
+        top: 0px;
+        width: 16px;
+    }
+    .sec_1 {
+        width: 24px;
+        right: 24px;
+        top: 60px;
+    }
+    .sec_2 {
+        width: 10px;
+        right: 36px;
+        bottom: 42px;
+    }
+    .sec_3 {
+        width: 28px;
+        left: 38px;
+        top: 29px;
+    }
+    .sec_4 {
+        left: 98px;
+        width: 11px;
+        top: 20px;
+    }
+    .sec_9 {
+        width: 25px;
+        top: 19px;
+        right: 75px;
+    }
+    .sec_5 {
+        top: 36px;
+    }
+    .sec_6 {
+        right: 114px;
+        bottom: 40px;
+        width: 30px;
+    }
+    .sec_8 {
+        bottom: 40px;
+        left: 117px;
+        width: 26px;
+    }
+
+}
